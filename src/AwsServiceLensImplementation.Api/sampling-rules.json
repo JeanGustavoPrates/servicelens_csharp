@@ -1,0 +1,17 @@
+﻿{
+  "version": 2,
+  "rules": [
+    {
+      "description": "Capture all requests",
+      "host": "*",
+      "http_method": "*",
+      "url_path": "/*",
+      "fixed_target": 1,
+      "rate": 1
+    }
+  ],
+  "default": {
+    "fixed_target": 1,
+    "rate": 1
+  }
+}
